@@ -1,0 +1,21 @@
+First, copy the 3 .txt file to the directory ~/data
+To execute the 1-layer neural network with sigmoid activation:
+   python testNeuralNet.py layer1 sigmoid
+
+To execute the 1-layer neural network with relu activation:
+   python testNeuralNet.py layer1 relu
+
+To execute the 1-layer neural network with sigmoid activation:
+   python testNeuralNet.py layer2 sigmoid
+
+To execute the 1-layer neural network with relu activation:
+   python testNeuralNet.py layer2 relu
+
+To change hyperparameters:
+   Hardcode in testNeuralNet.py line90-line97
+
+Declaration:
+    The code reused the skeleton I wrote in 10601 Machine Learning, as I think the skeleton is great for modifying the
+    neural network in the future as it is easy to add more different layers into the network without change the whole
+    structure much. All the forward propagation and backward propagation codes are all written by myself previously or
+    recently.
